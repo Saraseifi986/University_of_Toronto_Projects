@@ -1,1 +1,21 @@
 
+Toronto-s-Rental-Market
+Introduction: In this project, I explored Toronto's rental listings to understand what influences rental prices. Using data analysis and machine learning, 
+I aimed to find patterns that could help renters and landlords.
+
+The Journey Through Data: I started with a dataset of Toronto's rental properties, from condos to homes. My first task was to clean the data by dealing with
+missing values and encoding categorical variables, making it ready for analysis.
+
+Building the Models: The core of my project involved creating and testing different machine learning models to predict rental prices:
+
+Linear Regression: Helped me understand basic relationships in the data. Decision Tree Regressor: Revealed more complex patterns but tended to overfit.
+Random Forest Classifier: Balanced accuracy and generalizability. This phase was challenging and enlightening, revealing important patterns in the rental 
+market.
+
+Discoveries and Reflections: I found that location and type of listing (entire home/apt vs. private room) significantly impacted rental prices. 
+Visualizations highlighted price disparities across neighborhoods and how certain features affected costs. This project showed both the potential and 
+limits of data science in predicting prices.
+
+Wrapping Up: This project enhanced my understanding of data science in real estate and sparked my curiosity to further refine my models and explore more 
+aspects of the housing market. It reminded me of the power of data to reveal hidden insights and motivated me to continue this journey with curiosity and 
+commitment.
