@@ -1,1 +1,10 @@
 
+Image-Classification-using-Convolutional-Neural-Networks-
+Project Description: In this project, I will develop a deep learning model to classify images into different categories using
+Convolutional Neural Networks (CNNs). The goal is to build, train, and evaluate a CNN model that can accurately classify images from a popular dataset.
+
+Objectives: To understand the fundamentals of Convolutional Neural Networks (CNNs). To learn how to preprocess image data for deep learning.
+To build and train a CNN model using a popular deep learning framework. To evaluate the model's performance and improve it.
+
+Libraries: Python: Programming language. TensorFlow/Keras: Deep learning frameworks. NumPy: For numerical operations. Matplotlib/Seaborn: 
+For data visualization. scikit-learn: For additional data processing and evaluation metrics.
