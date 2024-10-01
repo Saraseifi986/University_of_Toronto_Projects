@@ -1,1 +1,14 @@
 
+Mnist
+Introduction The goal of this project is to classify handwritten digits (0-9) using a neural network. 
+The MNIST dataset, which consists of 60,000 training images and 10,000 test images, is used for this purpose. Each image is 28x28 pixels in size
+and represents a single digit.
+
+The neural network model is built using TensorFlow and Keras.The model is compiled using the RMSprop optimizer and binary crossentropy loss function.
+It is trained for 20 epochs with a batch size of 128. The training process includes both training and validation accuracy monitoring.
+
+The model's performance is evaluated using the test dataset. Metrics such as accuracy, precision, recall, and F1-score are calculated. A confusion matrix 
+is also plotted to visualize the classification results. The trained model achieves an accuracy of approximately 98% on the test dataset.
+Detailed evaluation metrics and confusion matrix plots are provided in the notebook.
+
+The MNIST dataset is provided by Yann LeCun, Corinna Cortes, and Christopher J.C. Burges. TensorFlow and Keras are developed and maintained by Google.
