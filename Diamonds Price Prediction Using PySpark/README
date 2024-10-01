@@ -1,1 +1,23 @@
+Diamonds Price Prediction Using PySpark
 
+This project utilizes PySpark to build a Random Forest Regression model for predicting the prices of diamonds based on various features such as carat,
+cut, color, clarity, and dimensions. It showcases the application of Spark’s machine learning pipelines to perform data preprocessing, model training, 
+and evaluation on a large dataset.The dataset used is the popular diamonds dataset from R’s ggplot2 package, which contains information on the characteristics
+and prices of diamonds. It includes features such as carat, cut, color, clarity, depth, table, and dimensions (x, y, z).
+
+Categorical variables like cut, color, and clarity are transformed into numerical indices using Spark’s StringIndexer. Combines the numerical and indexed 
+categorical features into a single feature vector for model training.
+
+A Random Forest Regressor is trained using the preprocessed features to predict the price of diamonds.The dataset is split into 80% training and 20% testing
+to ensure robust model evaluation.
+
+The model’s performance is evaluated using the Root Mean Squared Error (RMSE) metric on the test dataset. RMSE provides an indication of how well the model
+predicts the diamond prices, with a lower RMSE indicating better performance.
+
+MLlib (Machine Learning Library): For handling feature indexing, assembling, and building a machine learning pipeline. A robust regression model used to
+predict continuous outcomes. RegressionEvaluator: For evaluating the performance of the model using the RMSE metric.
+
+A Random Forest Regressor is built and trained on 80% of the dataset. Evaluation: The trained model is evaluated on the test set, with the RMSE printed as 
+the primary performance metric. Output: Root Mean Squared Error (RMSE) on test data: 1045.97, indicating the model's predictive accuracy on the diamond price
+data. This project is a good demonstration of how Spark's machine learning libraries can be applied to real-world regression problems, especially for handling 
+large-scale datasets and distributed computing. The code follows a structured approach using a machine learning pipeline, ensuring modularity and scalability.
